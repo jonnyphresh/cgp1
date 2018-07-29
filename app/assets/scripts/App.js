@@ -1,3 +1,5 @@
+/* This is all stuff from the course.
+
 var $ = require('jquery');
 //var Person = require('./modules/Person');
 import Person from "./modules/Person";
@@ -18,3 +20,7 @@ jane.greet();
 jane.payTaxes();
 
 $("h1").remove();
+*/
+import MobileMenu from './modules/MobileMenu';
+
+var mobileMenu = new MobileMenu();
