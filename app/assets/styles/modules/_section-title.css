@@ -1,18 +1,30 @@
 .section-title {
   font-size: 2.55rem;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
+  position: relative;
+  padding-left: 1.2rem;
+  
 
   @mixin atSmall {
     font-size: 3.75rem;
   }
 
+ &--pull-center {
+   text-align: center;
+ }
+ &--pull-right {
+   @mixin atMedium {
+     top: 50% right: 50%
+ }
+}
+
   strong {
     font-weight: 500;
   }
 
-  &--blue {
-    color: $mainBlue;
+  &--grey {
+    color: $mainGrey;
   }
 
   &--less-margin {
@@ -35,5 +47,17 @@
       display: inline-block;
     }
   }
+  &__subtitle{
+    padding-left: 1.25rem;
+  }
 
+  &__paragraph {
+    display: block;
+
+    @mixin atMedium {
+    max-width: 50%;
+    margin-bottom: 10%;
+    display: inline-block;
+    }
+  }
 }

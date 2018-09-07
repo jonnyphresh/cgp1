@@ -1,33 +1,77 @@
 .large-hero {
-  border-bottom: 10px solid $mainBlue;
+
   position: relative;
 
   &__image {
     display: block;
-  }
 
-  &__text-content {
-    padding-top: 88px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    width: 100%;
-    text-align: center;
-
+    @mixin atMedium{
+    max-width: 70%;
+    margin-left: 25%;
+    padding-top: 2.5rem;
+    border-bottom: 25%;
+    margin-bottom: -10%;
     @mixin atMedium {
-      padding-top: 60px;
+      padding-top: 3rem;
+      }
     }
   }
 
+    &__blogNumber {
+      padding-left: 5px;
+      opacity: 0;
+
+      @mixin atMedium{
+      display: block;
+      padding-left: 5%;
+      opacity: 1;
+
+    }
+
+  }
+
+  &__text-content {
+    border-top: 2px;
+    padding-top: 1.5rem;
+    background-color: #EFEEE2;
+    max-width: 16rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 17.5%;
+    width: 75%;
+    text-align: left;
+    z-index: 1;
+    font-size: 1.2rem;
+
+    @mixin atMedium  {
+      margin-top: 10%;
+      margin-left: 20%;
+      left: 0;
+    }
+
+  }
+
   &__title {
+
     font-weight: 300;
-    color: $mainBlue;
-    margin: 0;
-    font-size: 2.4rem;
-  
+    color: $mainGrey;
+    position: relative;
+    font-size: .5rem;
+    padding: 4rem 2rem;
+
     @mixin atSmall {
-      font-size: 4.8rem;
+      font-size: 1.5rem;
+
+
+
+    @mixin atMedium {
+      font-size: 1.4rem;
+      }
+    }
+
+    &-line {
+    letter-spacing: -1rem;
     }
 
   }
@@ -41,7 +85,6 @@
     @mixin atSmall {
       font-size: 2.9rem;
     }
-
   }
 
   &__description {
@@ -57,5 +100,7 @@
       font-size: 1.875rem;
     }
   }
-
+h2  {
+  font-size: 1.2rem;
+  }
 }

@@ -6,6 +6,12 @@
   margin-left: auto;
   margin-right: auto;
 
+  @define-mixin atLarge {
+	   @media (min-width: 1200px) {
+		     @mixin-content;
+	}
+}
+
   &--medium {
     max-width: 976px;
   }
