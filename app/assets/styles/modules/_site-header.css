@@ -8,6 +8,7 @@
 
   &--is-expanded {
     background-color: rgba($mainGrey, .55);
+
   }
 
   @mixin atMedium {
@@ -16,12 +17,15 @@
 
     &--dark {
       background-color: rgba(23, 51, 72, .85);
+      border-bottom: 2px solid $mainGrey;
     }
   }
 
   &__btn-container {
     @mixin atMedium {
       float: right;
+      border: 2px solid $mainGrey;
+      margin-right: 5%;
     }
   }
 

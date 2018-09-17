@@ -2,7 +2,7 @@
   padding: 1.2rem 1.2rem;
   position: relative;
   width: 100%;
-  
+
   @mixin atMedium {
     padding: 4.5rem 0;
   }
@@ -42,13 +42,10 @@
       padding-right: 1.25rem;
       line-height: 1.5rem;
       font: Helvetica Neue;
-      display: block;
+      display: inline-block;
 
-      @mixin atMedium{
-        grid-template-rows: auto;
       }
 
     }
 
-}
 }

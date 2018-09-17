@@ -1,11 +1,13 @@
 .testimonial {
   background-color: rgba(255, 255, 255, .8);
   padding: 0 18px 1px 18px;
+  max-width: 50%;
 
   @mixin atLarge {
     margin-top: 15%;
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 0rem;
+
   }
 
   &--last {
@@ -17,18 +19,21 @@
     width: 160px;
     height: 160px;
     margin: 0 auto -80px auto;
-    position: relative;
     top: -80px;
-    border: 6px solid rgba(255, 255, 255, .8);
+
+
   }
 
   &__title {
     color: $mainBlue;
-    text-align: center;
+    float: left;
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0;
+    width: 25%;
+    height: 25%;
     padding-bottom: 30px;
+    padding-top: 30px;
   }
 
   &__subtitle {

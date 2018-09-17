@@ -1,0 +1,12 @@
+.body {
+
+  &--thin-line{
+    border-left: 1px solid $mainGrey;
+    height: 5000px;
+    position: absolute;
+    left: 5%;
+    margin-left: -3px;
+    top: 0;
+    z-index: -5;
+  }
+}
