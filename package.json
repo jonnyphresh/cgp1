@@ -2,6 +2,7 @@
   "name": "travel-site",
   "version": "1.0.0",
   "dependencies": {
+    "es6-promise": "^4.2.5",
     "jquery": "^2.2.4",
     "jquery-smooth-scroll": "^2.0.0",
     "lazysizes": "^2.0.0",

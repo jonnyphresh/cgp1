@@ -15,3 +15,8 @@ img {
 a {
   color: $mainOrange;
 }
+
+strong {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}

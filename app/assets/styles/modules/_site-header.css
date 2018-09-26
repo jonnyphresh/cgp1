@@ -40,12 +40,16 @@
 
     @mixin atMedium {
       position: absolute;
-      margin-left: 0;
+      margin-left: -3%;
       margin-top: -1rem;
       top: 0;
       left: 0;
       transition: ease-out;
       padding: 25px 36px;
+
+      @mixin atLarge {
+        padding-left: 5%;
+      }
     }
   }
 

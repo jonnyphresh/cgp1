@@ -4,13 +4,19 @@
   text-align: left;
   position: relative;
   padding-left: 1.2rem;
+  margin-left: 20%;
+
 
   @mixin atSmall {
     font-size: 3.75rem;
+
+  @mixin atMedium {
+    margin-left: 10%;
+  }
   }
 
  &--pull-center{
-   text-align: center;
+   text-align: left;
  }
 
   strong {
@@ -19,12 +25,14 @@
 
   &--grey {
     color: $mainGrey;
-    font-size: 1.2rem
+    font-size: 3rem;
 
     @mixin atMedium {
       display: inline-block;
+      margin-left: 10%;
+      }
     }
-  }
+
 
   &--less-margin {
     margin-bottom: 1.3rem;
@@ -47,17 +55,32 @@
     }
   }
   &__subtitle{
-    padding-left: 1.25rem;
+    padding-left: 10%;
+    font-weight: 350;
+    @mixin atMedium {
+      margin-left: 0;
+      @mixin atLarge {
+        padding-left: 11%;
+      }
+    }
   }
 
   &__paragraph {
-    display: relative;
+    display: inline-block;
+    line-height: 2;
+    padding: 5% 5% 10% 5%;
 
     @mixin atMedium {
-    max-width: 50%;
-    margin-bottom: 10%;
+    min-width: 50%;
     display: inline-block;
-    float: right;
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-top: -20%;
+    padding-right: 5%;
+
+    @mixin atLarge {
+      min-width: 50%;
+    }
     }
 
   &--aboutme{

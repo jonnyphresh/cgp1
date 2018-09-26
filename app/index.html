@@ -20,11 +20,11 @@
 <body class="body--thin-line">
   <header class="site-header">
     <div class="wrapper">
-      <div class="site-header__logo">
+      <div class="site-header__logo" id=#projects-link>
         <div class="site-header__logo__graphic icon icon--CGPLogo" href="#">Constant Growth Productions</div>
       </div>
 
-      <div class="site-header__menu-icon">
+      <div class="site-header__menu-icon"> <a href="#projects" id="projects-link"></a>>
         <div class="site-header__menu-icon__middle"></div>
       </div>
 
@@ -46,6 +46,10 @@
 
   <div class="large-hero" id="projects">
 
+    <div>
+      <h2 class="large-hero__blogNumber"><strong>01</strong> 03</h2>
+    </div>
+
     <picture>
       <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
       <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
@@ -53,9 +57,6 @@
       <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="Coastal view of ocean and mountains" class="large-hero__image">
     </picture>
 
-  <div>
-    <h2 class="large-hero__blogNumber">01 03</h2>
-  </div>
     <div class="large-hero__text-content">
       <div class="wrapper">
         <h2 class="large-hero__title">Sales to Web Dev?</h2>
@@ -63,22 +64,19 @@
     </div>
   </div>
 
-  <div id="about" class="page-section page-section--no-b-padding-until-large page-section lazyload" data-matching-link="#about-link">
-    <p sizes="33%" class="section-title__paragraph section-title--pull-right--aboutme">
-      Building has been something I’ve loved doing since early childhood.
-      I started with Brio blocks train sets, and quickly moved to legos. I wrote
-      my first program for a Texas Instruments TI-85 to solve for the hypotenuse
-      when given two sides. Since then, I’ve created 3 professional websites
-      using various CMS and wanted to dive into coding more in depth,
-      so I’ve used Adobe Xd to create the wireframe. I’m going to use Atom as
-      my code editor and javascript to build the site with git as version control.
-</p></div>
+
     <div class="wrapper wrapper--no-padding-until-large">
       <h1 class="section-title section-title--grey"> Why <strong>Now?</strong></h1>
-      <h2 class="large-hero__title">What I'm looking for in a company.</h2>
-      <!-- <p><a href="#" class="btn btn--large open-modal row__large-6">Get in Touch</a></p></div> -->
+      <h2 class="section-title__subtitle">There's no time like the present.</h2>
+      <div id="about" data-matching-link="#about-link">
+        <p sizes="33%" class="section-title__paragraph">
+          I've was in sales and am interested in persuing a career in web development. Loving
+          math from an early age I've learned to love the languages of the internet. Learning spanish starting
+          at age 13, I have enjoyed learning languages. Combine language and math and voilà! This is something
+          I want to spend the rest of my life doing.
 
 
+      </p></div>
 </div>
       <!-- <div class="row row--gutters row--equal-height-at-large row--gutters-small row--t-padding generic-content-container">
         <div class="row__medium-6">
@@ -118,9 +116,12 @@
     <div class="wrapper wrapper--no-padding-until-large">
       <div class="row__large-6">
       </div>
-      <h3 class="testimonial__title">02 03</h3>
+      <div class="testimonial__blogNumber">
+        <h3><strong>02</strong> 03</h3>
+      </div>
     </div>
         <div class="testimonial testimonial--last">
+
           <div class="testimonial__subtitle">
             <img class="lazyload" data-srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty">
 
@@ -169,7 +170,7 @@
 
   <div class="modal">
     <div class="modal__inner">
-      <h2 class="section-title section-title--blue section-title--pull-center section-title--less-margin"><span class="icon icon--mail section-title__icon"></span> Get in <strong>Touch</strong></h2>
+      <h2 class="section-title section-title--grey section-title--pull-center section-title--less-margin"><span class="icon icon--mail section-title__icon"></span><br> Get in Touch</br></h2>
     <div class="wrapper wrapper--narrow">
       <p class="modal__description">Connect with me on any of the platforms below!</p>
     </div>

@@ -47,7 +47,7 @@
   }
 
   a {
-    color: #FFF;
+    color: $mainGrey;
     font: ariel;
     font-weight: 300;
     text-decoration: none;
