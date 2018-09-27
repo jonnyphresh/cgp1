@@ -5,7 +5,7 @@
   &__image {
     display: block;
     vertical-align: top;
-    margin-top: -10%;
+    margin-top: -59px; 
 
     @mixin atMedium{
     display: inline-block;
@@ -64,7 +64,7 @@
     color: $mainGrey;
     position: relative;
     font-size: .5rem;
-    padding: 4rem 2rem;
+    padding: 0rem 2rem;
 
     @mixin atSmall {
       font-size: 1.5rem;
@@ -74,6 +74,7 @@
     @mixin atMedium {
       font-size: 1.4rem;
       z-index: 1;
+      padding: 4rem 2rem;
       }
     }
 

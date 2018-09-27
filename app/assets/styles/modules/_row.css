@@ -16,6 +16,7 @@
 
   &--gutters-small {
     margin-right: -45px;
+    margin-left: 45px;
   }
 
   &--gutters > div {
@@ -95,7 +96,7 @@
     }
 
   }
-  
+
   /* Begin Equal Height Rules */
   .flexbox &--equal-height-at-medium {
     @mixin atMedium {

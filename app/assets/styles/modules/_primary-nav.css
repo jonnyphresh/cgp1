@@ -1,9 +1,9 @@
 .primary-nav {
-  padding-top: 10px;
+  padding-top: 0px;
 
 
   @mixin atMedium {
-    padding-top: 0;
+    padding-top: 10px;
     max-width: 100%;
   }
 
@@ -47,8 +47,7 @@
   }
 
   a {
-    color: $mainGrey;
-    font: ariel;
+    color: #FFF;
     font-weight: 300;
     text-decoration: none;
     display: block;

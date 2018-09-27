@@ -4,7 +4,7 @@
   max-width: 50%;
 
   @mixin atLarge {
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 0rem;
 
@@ -15,14 +15,19 @@
   }
 
   &__photo {
-    overflow: hidden;
-    width: 160px;
-    height: 160px;
-    margin: 0 auto -80px auto;
-    top: -80px;
+    padding: 1rem;
 
+    @mixin atMedium {
 
+    overflow: visible;
+    display:
+    max-width: 100%;
+    height: auto;
+    margin-left: -30%;
+    top: 0;
+    }
   }
+
 
   &__title {
     color: $mainBlue;

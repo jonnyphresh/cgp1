@@ -6,9 +6,9 @@
   transition: background-color .3s ease-out;
   float: left;
 
+
   &--is-expanded {
     background-color: rgba($mainGrey, .55);
-
   }
 
   @mixin atMedium {
@@ -16,7 +16,7 @@
     background-color: $mainGrey, .55;
 
     &--dark {
-      background-color: rgba(23, 51, 72, .85);
+      background-color: rgba(255, 255, 255, .85);
       border-bottom: 2px solid $mainGrey;
     }
   }
@@ -55,6 +55,10 @@
 
   &__logo__graphic {
     text-indent: -9999px;
+
+    @mixin atMedium {
+      margin-top: 15px;
+    }
   }
 
   &__menu-icon {
@@ -142,5 +146,9 @@
       transform: scale(1);
       display: block;
     }
+  }
+
+  a {
+    color: #fff;
   }
 }
