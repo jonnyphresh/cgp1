@@ -9,6 +9,7 @@
 
   &--is-expanded {
     background-color: rgba($mainGrey, .55);
+    top: 0;
   }
 
   @mixin atMedium {
@@ -149,6 +150,6 @@
   }
 
   a {
-    color: #fff;
+    color: $mainGrey;
   }
 }

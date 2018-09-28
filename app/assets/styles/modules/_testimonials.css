@@ -18,9 +18,8 @@
     padding: 1rem;
 
     @mixin atMedium {
-
     overflow: visible;
-    display:
+    display:;
     max-width: 100%;
     height: auto;
     margin-left: -30%;
@@ -30,7 +29,7 @@
 
 
   &__title {
-    color: $mainBlue;
+    color: $mainGrey;
     float: left;
     font-size: 1.5rem;
     font-weight: 500;
@@ -42,7 +41,7 @@
   }
 
   &__subtitle {
-    color: $mainBlue;
+    color: $mainGrey;
     text-align: center;
     font-weight: 400;
     font-size: 0.9375rem;
