@@ -855,6 +855,7 @@ Instead edit gulp/templates/sprite */.icon {
   }
 }.primary-nav a {
   color: #FFF;
+  font: ariel;
   font-weight: 300;
   text-decoration: none;
   display: block;
