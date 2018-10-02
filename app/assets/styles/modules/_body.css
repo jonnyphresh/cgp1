@@ -4,7 +4,7 @@ opacity: 0;
 @mixin atMedium {
   &--thin-line{
     border-left: 1px solid $mainGrey;
-    height: 3813px;
+    height: 3085px;
     position: absolute;
     left: 5%;
     margin-left: -3px;

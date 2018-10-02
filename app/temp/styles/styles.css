@@ -842,7 +842,7 @@ strong {
 @media (min-width: 800px) {
 
   .row__b-margin-until-medium {
-    margin-bottom: 0;
+    margin-bottom: 2%;
   }
 
   .row__medium-4 {
@@ -1604,7 +1604,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .modal__description {
-  text-align: center;
+  position: centered;
   font-size: 1.3rem;
   font-weight: 300;
   line-height: 1.65;
@@ -1662,7 +1662,7 @@ opacity: 0;
 
   .body--thin-line {
     border-left: 1px solid #707070;
-    height: 3813px;
+    height: 3085px;
     position: absolute;
     left: 5%;
     margin-left: -3px;
