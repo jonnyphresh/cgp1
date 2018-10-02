@@ -585,7 +585,6 @@ strong {
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
-
 }
 
 .btn--orange {
@@ -609,6 +608,17 @@ strong {
 
 .btn--inline {
   display: inline-block;
+}
+
+.btn--testimonials {
+  margin-left: 25%;
+}
+
+@media (min-width: 530px) {
+
+  .btn--testimonials {
+    margin-left: 33%;
+  }
 }
 
 .wrapper {
@@ -1098,60 +1108,91 @@ strong {
   }
 }
 
-.testimonial {
-  background-color: rgba(255, 255, 255, .8);
-  padding: 0 18px 1px 18px;
-  max-width: 50%;
+.testimonials {
+  background-color: #EFEEE2;
+
+}
+
+@media (min-width: 800px) {
+
+  .testimonials {
+    position: relative;
+  }
 }
 
 @media (min-width: 1200px) {
 
-  .testimonial {
-    margin-top: 5%;
+  .testimonials {
+    margin-top: 0%;
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 0rem;
   }
 }
 
-.testimonial--last {
+.testimonials--last {
   margin-bottom: 0;
-}
-
-.testimonial__photo {
-  padding: 1rem;
 }
 
 @media (min-width: 800px) {
 
-  .testimonial__photo {
+  .testimonials__photo {
     overflow: visible;
-    display: ;
-    max-width: 100%;
     height: auto;
-    margin-left: -30%;
-    top: 0;
+    float: right;
+    position: 20px;
   }
 }
 
-.testimonial__title {
+.testimonials__title {
   color: #707070;
-  float: left;
   font-size: 1.5rem;
-  font-weight: 500;
-  margin: 0;
-  width: 25%;
-  height: 25%;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  font-weight: 700;
+  text-align: center;
+  top: 0;
 }
 
-.testimonial__subtitle {
+@media (min-width: 800px) {
+
+  .testimonials__title {
+    margin-top: -6%;
+  }
+}
+
+.testimonials__subtitle {
   color: #707070;
-  text-align: center;
   font-weight: 400;
   font-size: 0.9375rem;
-  margin: -.5rem .1rem .1rem 0rem;
   padding-bottom: 30px;
+  text-align: center;/*  @mixin atMedium {
+      margin-right: 20%;
+
+    }*/
+}
+
+.testimonials__numbers {
+  margin-top: 25%;
+  opacity: 0;
+  top: 0;
+}
+
+@media (min-width: 800px) {
+
+  .testimonials__numbers {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+.testimonials p {
+  display: center;
+}
+
+@media (min-width: 800px) {
+
+  .testimonials p {
+    max-width: 50%;
+    margin-left: 29%;
+  }
 }
 
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
@@ -1617,7 +1658,7 @@ Instead edit gulp/templates/sprite */
 opacity: 0;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 800px) {
 
   .body--thin-line {
     border-left: 1px solid #707070;

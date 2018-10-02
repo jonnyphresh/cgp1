@@ -22,5 +22,11 @@
   &--inline {
     display: inline-block;
   }
+  &--testimonials {
+    margin-left: 25%;
 
+    @mixin atSmall {
+      margin-left: 33%;
+    }
+  }
 }

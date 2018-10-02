@@ -1,7 +1,7 @@
 .body {
 opacity: 0;
 
-@mixin atSmall {
+@mixin atMedium {
   &--thin-line{
     border-left: 1px solid $mainGrey;
     height: 3813px;

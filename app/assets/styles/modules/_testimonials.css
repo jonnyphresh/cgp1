@@ -1,10 +1,14 @@
-.testimonial {
-  background-color: rgba(255, 255, 255, .8);
-  padding: 0 18px 1px 18px;
-  max-width: 50%;
+.testimonials {
+  background-color: #EFEEE2;
+
+
+
+  @mixin atMedium {
+    position: relative;
+  }
 
   @mixin atLarge {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 0;
     padding: 0 1.8125rem 1px 0rem;
 
@@ -12,40 +16,63 @@
 
   &--last {
     margin-bottom: 0;
+
   }
 
   &__photo {
-    padding: 1rem;
 
     @mixin atMedium {
     overflow: visible;
-    display:;
-    max-width: 100%;
     height: auto;
-    margin-left: -30%;
-    top: 0;
+    float: right;
+    position: 20px;
     }
   }
 
 
   &__title {
     color: $mainGrey;
-    float: left;
     font-size: 1.5rem;
-    font-weight: 500;
-    margin: 0;
-    width: 25%;
-    height: 25%;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    font-weight: 700;
+    text-align: center;
+    top: 0;
+
+    @mixin atMedium {
+      margin-top: -6%;
+    }
   }
 
   &__subtitle {
     color: $mainGrey;
-    text-align: center;
     font-weight: 400;
     font-size: 0.9375rem;
-    margin: -.5rem .1rem .1rem 0rem;
     padding-bottom: 30px;
+    text-align: center;
+
+/*  @mixin atMedium {
+      margin-right: 20%;
+
+    }*/
   }
+
+  &__numbers {
+    margin-top: 25%;
+    opacity: 0;
+    top: 0;
+
+
+    @mixin atMedium{
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+p {
+
+  display: center;
+  @mixin atMedium {
+    max-width: 50%;
+    margin-left: 29%;
+  }
+}
+
 }
