@@ -13,7 +13,7 @@
   @mixin atMedium {
     margin-left: 10%;
   }
-  }
+}
 
  &--pull-center{
    text-align: left;
@@ -26,6 +26,7 @@
   &--grey {
     color: $mainGrey;
     font-size: 3rem;
+    display: center;
 
     @mixin atMedium {
       display: inline-block;
