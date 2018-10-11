@@ -45,14 +45,11 @@
       display: inline-block;
 
       }
-
     }
- &__numbers {
-   padding-left: 5%;
-   opacity: 0;
 
-   @mixin atMedium {
-     opacity: 1;
-   }
+    h3 {
+      @mixin atMedium {
+      padding-left: 5%;
+    }
  }
 }

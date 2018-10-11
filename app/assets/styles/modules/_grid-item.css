@@ -6,6 +6,7 @@
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 
+
   @mixin atMedium {
     display: grid;
     padding-left: 5%;

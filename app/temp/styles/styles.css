@@ -743,15 +743,10 @@ strong {
   display: inline-block;
 }
 
-.page-section__numbers {
-  padding-left: 5%;
-  opacity: 0;
-}
-
 @media (min-width: 800px) {
 
-  .page-section__numbers {
-    opacity: 1;
+  .page-section h3 {
+    padding-left: 5%;
   }
 }
 
