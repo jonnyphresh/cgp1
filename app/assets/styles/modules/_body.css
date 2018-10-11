@@ -2,9 +2,9 @@
 opacity: 0;
 
 @mixin atMedium {
-  &--thin-line{
+  &--thin-line {
     border-left: 1px solid $mainGrey;
-    height: 3085px;
+    height: 3625px;
     position: absolute;
     left: 5%;
     margin-left: -3px;
@@ -12,4 +12,9 @@ opacity: 0;
     z-index: -5;
   }
 }
+@mixin atLarge {
+  &--thin-line {
+  height: 4750px;
+    }
+  }
 }
