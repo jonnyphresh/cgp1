@@ -63,6 +63,7 @@
     @mixin atMedium{
       opacity: 1;
       margin-top: 33%;
+      padding-left: 10%;
 
     }
   }

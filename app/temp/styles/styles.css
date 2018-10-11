@@ -687,7 +687,6 @@ strong {
   padding: 1.2rem 1.2rem;
   position: relative;
   width: 100%;
-
 }
 
 @media (min-width: 800px) {
@@ -742,6 +741,18 @@ strong {
   line-height: 1.5rem;
   font: Helvetica Neue;
   display: inline-block;
+}
+
+.page-section__numbers {
+  padding-left: 5%;
+  opacity: 0;
+}
+
+@media (min-width: 800px) {
+
+  .page-section__numbers {
+    opacity: 1;
+  }
 }
 
 .headline {
@@ -1187,6 +1198,7 @@ strong {
   .testimonials__numbers {
     opacity: 1;
     margin-top: 33%;
+    padding-left: 10%;
   }
 }
 

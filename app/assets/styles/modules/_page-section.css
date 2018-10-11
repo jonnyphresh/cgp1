@@ -47,5 +47,12 @@
       }
 
     }
+ &__numbers {
+   padding-left: 5%;
+   opacity: 0;
 
+   @mixin atMedium {
+     opacity: 1;
+   }
+ }
 }
